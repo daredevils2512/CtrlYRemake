@@ -32,9 +32,9 @@ public:
 	virtual bool IsFinished();
 	virtual void End();
 	virtual void Interrupted();
-
+	int cylinderFired;
 private:
-	int lastCylinderFired;
+
 };
 
 #endif
